@@ -1,0 +1,45 @@
+<div class="container">
+	
+	<!-- INPUT -->
+	<div class="row">
+		<div class="col-md-6">
+		</div>
+	</div>
+
+	<!-- FILTRE -->
+	<div class="row">
+		<div class="dropdown col-md-4">
+		  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+		    Type
+		    <span class="caret"></span>
+		  </button>
+		  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+		    <li *ngFor='let type of types'>{{type}}</li>
+		  </ul>
+		</div>
+	</div>
+
+	<!-- LISTE -->
+	<div class="row">
+		<div class="col-md-12">
+			<table class="table table-striped table-hover ">
+				<thead>
+					<tr>
+						<th>Nom</th>
+						<th>Categorie</th>
+						<th>Type</th>
+						<th>Location</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr *ngFor="let matut of materielUtile">
+						<td>{{matut.titre}}</td>
+						<td>{{matut.categorie}}</td>
+						<td>{{matut.type}}</td>
+						<td>{{matut.loca}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
