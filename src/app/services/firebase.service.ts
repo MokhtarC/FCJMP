@@ -65,7 +65,7 @@ export class FirebaseService
 		return this.materielUtile;
 	}
 
-	getMaterielUtileFiltre(cat:string, type:string)
+	getMaterielUtileFiltre(cat:string, type:string,loca:string)
 	{
 		if(cat!=null && cat!='0' && type!=null && type!='0')
 		{
@@ -79,6 +79,10 @@ export class FirebaseService
 				{
 					orderByChild: 'type',
 					equalTo: type
+				},
+				{
+					orderByChild: 'loca',
+					equalTo: loca
 				}]
 			}) as
 			FirebaseListObservable<MaterielUtile[]>;
@@ -90,17 +94,7 @@ export class FirebaseService
 
 	getCategories()
 	{
-		this.matutCategories = this._af.database.list('/matut',
-		{
-			query:
-			{
-				"distinct":"matut",
-				"key": "categorie"
-			}
-		}) as
-		FirebaseListObservable<string[]>;
 
-		return this.matutCategories;
 	}
 
 	getProductions()

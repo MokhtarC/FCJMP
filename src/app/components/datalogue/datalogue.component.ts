@@ -51,7 +51,7 @@ export class DatalogueComponent implements OnInit
 
 	listeOj:Oj[];
 	ojActive: Oj = null;
-	institution: Institution = null;
+	institution: Institution;
 	employeActif: Personnel = null;
 	equipe: Personnel[] = null;
 	actions: Action[] = null;

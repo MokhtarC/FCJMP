@@ -9,13 +9,22 @@
 	<!-- FILTRE -->
 	<div class="row">
 		<div class="dropdown col-md-4">
-		  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-		    Type
-		    <span class="caret"></span>
-		  </button>
-		  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-		    <li *ngFor='let type of types'>{{type}}</li>
-		  </ul>
+			<select>
+				<option>Catégorie</option>
+				<option *ngFor="let cat of categories">{{cat}}</option>
+			</select>
+		</div>
+		<div class="dropdown col-md-4">
+			<select >
+				<option>Type</option>
+				<option *ngFor="let type of types">{{type}}</option>
+			</select>
+		</div>
+		<div class="dropdown col-md-4">
+			<select>
+				<option>Location</option>
+				<option *ngFor="let loc of locations">{{loc}}</option>
+			</select>
 		</div>
 	</div>
 
