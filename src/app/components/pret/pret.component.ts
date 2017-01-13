@@ -15,9 +15,10 @@ import {MaterielUtile} from '../../data/MaterielUtile';
 })
 export class PretComponent implements OnInit
 {
-	
+	matutState: string = 'default';
 	listeOj: Oj[];
 	materielUtile: MaterielUtile[];
+	materielActif : MaterielUtile;
 	categories: String[];
 	types:string[];
 	locations:string[];
@@ -87,5 +88,16 @@ export class PretComponent implements OnInit
 		});
 		console.log('hello');
 		console.log(this.categories);
+	}
+
+	selectMatUt(matut: MaterielUtile)
+	{
+		this.materielActif = matut;
+		this.matutState="show";
+	}
+
+	changeMatUtState(state :string)
+	{
+		this.matutState= state;
 	}
 }

@@ -1,5 +1,43 @@
 <div class="container">
-	
+	<div *ngIf="matutState=='show'" class="panel panel-default">
+								<div class="panel-heading">
+									{{materielActif.titre}}
+								</div>
+								<div class="panel-body">
+									<div class="col-md-2 ">
+										<img class="thumbnail photo" src="{{materielActif.photo}}"/>
+									</div>
+									<div class="col-md-4 ">
+										<div class="input-group">
+											<span class="input-group-addon">Nom</span>
+											<input type="text" class="form-control textright" disabled="disabled" [(ngModel)]="materielActif.titre">
+										</div>
+										<div class="input-group">
+											<span class="input-group-addon">Type</span>
+											<input type="text" class="form-control textright" disabled="disabled" [(ngModel)]="materielActif.type">
+										</div>
+										<div class="input-group">
+											<span class="input-group-addon">Catégorie</span>
+											<input type="text" class="form-control textright" disabled="disabled" [(ngModel)]="materielActif.categorie">
+										</div>
+										<div class="input-group">
+											<span class="input-group-addon">Location</span>
+											<input type="text" class="form-control textright" disabled="disabled" [(ngModel)]="materielActif.loca">
+										</div>
+									</div>
+									<div class="col-md-4 ">
+										<div class="input-group">
+											<span class="input-group-addon">Remarque</span>
+											<textarea type="text" class="form-control" disabled="disabled" [(ngModel)]="materielActif.remarque"  rows="6"></textarea>
+										</div>
+									</div>
+									<div class="col-md-2 ">				
+										<button (click)="changeMatUtState('default')" type="button" class="btn btn-danger btn-xs">Fermer</button>
+									</div>
+								</div>	
+							</div>
+
+
 	<!-- INPUT -->
 	<div class="row">
 		<div class="col-md-6">
@@ -41,7 +79,7 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr *ngFor="let matut of materielUtile">
+					<tr *ngFor="let matut of materielUtile" (click)="selectMatUt(matut)">
 						<td>{{matut.titre}}</td>
 						<td>{{matut.categorie}}</td>
 						<td>{{matut.type}}</td>

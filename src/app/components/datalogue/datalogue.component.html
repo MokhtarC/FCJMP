@@ -1,4 +1,4 @@
-DATALOGUE
+<!-- DATALOGUE
 <div class="container">
 	<div class="row">
 		<button (click)="reset('default')" class="btn btn-default">Défaut</button>
@@ -6,7 +6,7 @@ DATALOGUE
 		<button (click)="changeState('listoj')" class="btn btn-secondary">List OJ</button>
 	</div>
 </div>
-<br>
+<br> -->
 
 <!-- Liste OJ -->
 <div *ngIf="appState =='listoj'" class="panel panel-default">	
@@ -876,10 +876,9 @@ DATALOGUE
 											categorie.value,
 											photo.value,
 											remarque.value)">
-										<div class="col-md-2 ">
-											<img class="thumbnail photo" src="{{materielActif.photo}}"/>	
+										<div class="col-md-2 ">	
 											<div class="input-group">
-												<span class="input-group-addon">Source</span>
+												<span class="input-group-addon">Photo</span>
 												<input type="text" class="form-control textright" placeholder="Url de la photo" name="photo" #photo>
 											</div>											
 										</div>
@@ -904,7 +903,7 @@ DATALOGUE
 										<div class="col-md-4 ">
 											<div class="input-group">
 												<span class="input-group-addon">Remarque</span>
-												<textarea type="text" class="form-control textright" rows="6" placeholder="Remarque sur l'objet" name="remarque" #remarque></textarea>
+												<textarea type="text" class="form-control" rows="6" placeholder="Remarque sur l'objet" name="remarque" #remarque></textarea>
 											</div>
 										</div>
 										<div class="col-md-2 ">

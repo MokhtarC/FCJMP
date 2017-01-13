@@ -70,7 +70,7 @@ export class DatalogueComponent implements OnInit
 	constructor(private _firebaseService:FirebaseService)
 	{
 		this.appState = 'datalogue';
-		this.dataState = 'matut';
+		this.dataState = 'actions';
 		this.institutionState = 'default';
 		this.equipeState = 'default';
 		this.actionsState = 'default';
@@ -95,8 +95,7 @@ export class DatalogueComponent implements OnInit
 		{
 			this.listeOj = listeoj;
 		});
-
-		if(this.listeOj) this.ojActive = this.listeOj[0];
+		this.ojActive = { $key: "0",nom : "Club de Jeunesse"};
 
 		this._firebaseService.getInstitution().subscribe(institution =>
 		{

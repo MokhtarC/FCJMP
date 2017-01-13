@@ -1,0 +1,662 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/maelle/Bureau/Presentation/projet/FCJMP',
+5 verbose install   [ '@angular/common',
+5 verbose install     '@angular/compiler',
+5 verbose install     '@angular/core',
+5 verbose install     '@angular/forms',
+5 verbose install     '@angular/http',
+5 verbose install     '@angular/platform-browser',
+5 verbose install     '@angular/platform-browser-dynamic',
+5 verbose install     '@angular/router',
+5 verbose install     'angularfire2',
+5 verbose install     'core-js',
+5 verbose install     'rxjs',
+5 verbose install     'ts-helpers',
+5 verbose install     'zone.js',
+5 verbose install     '@angular/compiler-cli',
+5 verbose install     '@types/jasmine',
+5 verbose install     '@types/node',
+5 verbose install     'angular-cli',
+5 verbose install     'codelyzer',
+5 verbose install     'jasmine-core',
+5 verbose install     'jasmine-spec-reporter',
+5 verbose install     'karma',
+5 verbose install     'karma-chrome-launcher',
+5 verbose install     'karma-cli',
+5 verbose install     'karma-jasmine',
+5 verbose install     'karma-remap-istanbul',
+5 verbose install     'protractor',
+5 verbose install     'ts-node',
+5 verbose install     'tslint',
+5 verbose install     'typescript' ] ]
+6 info preinstall fcjmp-em@0.0.0
+7 warn package.json bcrypt-pbkdf@1.0.0 No repository field.
+8 warn package.json callsite@1.0.0 No repository field.
+9 warn package.json fast-ordered-set@1.0.3 No repository field.
+10 warn package.json has-binary@0.1.7 No repository field.
+11 warn package.json indexof@0.0.1 No repository field.
+12 warn package.json object-component@0.0.3 No repository field.
+13 warn package.json parsejson@0.0.1 No repository field.
+14 warn package.json parseqs@0.0.2 No repository field.
+15 verbose readDependencies using package.json deps
+16 verbose cache add [ '@angular/http@^2.3.1', null ]
+17 verbose cache add name=undefined spec="@angular/http@^2.3.1" args=["@angular/http@^2.3.1",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '@angular/http@^2.3.1',
+18 verbose parsed url   path: '@angular/http@^2.3.1',
+18 verbose parsed url   href: '@angular/http@^2.3.1' }
+19 verbose cache add name="" spec="angular/http@^2.3.1" args=["","angular/http@^2.3.1"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'angular/http@^2.3.1',
+20 verbose parsed url   path: 'angular/http@^2.3.1',
+20 verbose parsed url   href: 'angular/http@^2.3.1' }
+21 verbose cache add name="angular/http" spec="^2.3.1" args=["angular/http","^2.3.1"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '^2.3.1',
+22 verbose parsed url   path: '^2.3.1',
+22 verbose parsed url   href: '^2.3.1' }
+23 verbose addNamed [ 'angular/http', '^2.3.1' ]
+24 verbose addNamed [ null, '>=2.3.1-0 <3.0.0-0' ]
+25 silly lockFile b70df184-angular-http-2-3-1 angular/http@^2.3.1
+26 verbose lock angular/http@^2.3.1 /home/maelle/.npm/b70df184-angular-http-2-3-1.lock
+27 verbose cache add [ '@angular/platform-browser@^2.3.1', null ]
+28 verbose cache add name=undefined spec="@angular/platform-browser@^2.3.1" args=["@angular/platform-browser@^2.3.1",null]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '@angular/platform-browser@^2.3.1',
+29 verbose parsed url   path: '@angular/platform-browser@^2.3.1',
+29 verbose parsed url   href: '@angular/platform-browser@^2.3.1' }
+30 verbose cache add name="" spec="angular/platform-browser@^2.3.1" args=["","angular/platform-browser@^2.3.1"]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'angular/platform-browser@^2.3.1',
+31 verbose parsed url   path: 'angular/platform-browser@^2.3.1',
+31 verbose parsed url   href: 'angular/platform-browser@^2.3.1' }
+32 verbose cache add name="angular/platform-browser" spec="^2.3.1" args=["angular/platform-browser","^2.3.1"]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: '^2.3.1',
+33 verbose parsed url   path: '^2.3.1',
+33 verbose parsed url   href: '^2.3.1' }
+34 verbose addNamed [ 'angular/platform-browser', '^2.3.1' ]
+35 verbose addNamed [ null, '>=2.3.1-0 <3.0.0-0' ]
+36 silly lockFile c3933504-angular-platform-browser-2-3-1 angular/platform-browser@^2.3.1
+37 verbose lock angular/platform-browser@^2.3.1 /home/maelle/.npm/c3933504-angular-platform-browser-2-3-1.lock
+38 verbose cache add [ '@angular/core@^2.3.1', null ]
+39 verbose cache add name=undefined spec="@angular/core@^2.3.1" args=["@angular/core@^2.3.1",null]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: '@angular/core@^2.3.1',
+40 verbose parsed url   path: '@angular/core@^2.3.1',
+40 verbose parsed url   href: '@angular/core@^2.3.1' }
+41 verbose cache add name="" spec="angular/core@^2.3.1" args=["","angular/core@^2.3.1"]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: 'angular/core@^2.3.1',
+42 verbose parsed url   path: 'angular/core@^2.3.1',
+42 verbose parsed url   href: 'angular/core@^2.3.1' }
+43 verbose cache add name="angular/core" spec="^2.3.1" args=["angular/core","^2.3.1"]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: '^2.3.1',
+44 verbose parsed url   path: '^2.3.1',
+44 verbose parsed url   href: '^2.3.1' }
+45 verbose addNamed [ 'angular/core', '^2.3.1' ]
+46 verbose addNamed [ null, '>=2.3.1-0 <3.0.0-0' ]
+47 silly lockFile cda95bec-angular-core-2-3-1 angular/core@^2.3.1
+48 verbose lock angular/core@^2.3.1 /home/maelle/.npm/cda95bec-angular-core-2-3-1.lock
+49 verbose cache add [ '@angular/forms@^2.3.1', null ]
+50 verbose cache add name=undefined spec="@angular/forms@^2.3.1" args=["@angular/forms@^2.3.1",null]
+51 verbose parsed url { protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: '@angular/forms@^2.3.1',
+51 verbose parsed url   path: '@angular/forms@^2.3.1',
+51 verbose parsed url   href: '@angular/forms@^2.3.1' }
+52 verbose cache add name="" spec="angular/forms@^2.3.1" args=["","angular/forms@^2.3.1"]
+53 verbose parsed url { protocol: null,
+53 verbose parsed url   slashes: null,
+53 verbose parsed url   auth: null,
+53 verbose parsed url   host: null,
+53 verbose parsed url   port: null,
+53 verbose parsed url   hostname: null,
+53 verbose parsed url   hash: null,
+53 verbose parsed url   search: null,
+53 verbose parsed url   query: null,
+53 verbose parsed url   pathname: 'angular/forms@^2.3.1',
+53 verbose parsed url   path: 'angular/forms@^2.3.1',
+53 verbose parsed url   href: 'angular/forms@^2.3.1' }
+54 verbose cache add name="angular/forms" spec="^2.3.1" args=["angular/forms","^2.3.1"]
+55 verbose parsed url { protocol: null,
+55 verbose parsed url   slashes: null,
+55 verbose parsed url   auth: null,
+55 verbose parsed url   host: null,
+55 verbose parsed url   port: null,
+55 verbose parsed url   hostname: null,
+55 verbose parsed url   hash: null,
+55 verbose parsed url   search: null,
+55 verbose parsed url   query: null,
+55 verbose parsed url   pathname: '^2.3.1',
+55 verbose parsed url   path: '^2.3.1',
+55 verbose parsed url   href: '^2.3.1' }
+56 verbose addNamed [ 'angular/forms', '^2.3.1' ]
+57 verbose addNamed [ null, '>=2.3.1-0 <3.0.0-0' ]
+58 silly lockFile 0bea5e87-angular-forms-2-3-1 angular/forms@^2.3.1
+59 verbose lock angular/forms@^2.3.1 /home/maelle/.npm/0bea5e87-angular-forms-2-3-1.lock
+60 verbose cache add [ '@angular/platform-browser-dynamic@^2.3.1', null ]
+61 verbose cache add name=undefined spec="@angular/platform-browser-dynamic@^2.3.1" args=["@angular/platform-browser-dynamic@^2.3.1",null]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: '@angular/platform-browser-dynamic@^2.3.1',
+62 verbose parsed url   path: '@angular/platform-browser-dynamic@^2.3.1',
+62 verbose parsed url   href: '@angular/platform-browser-dynamic@^2.3.1' }
+63 verbose cache add name="" spec="angular/platform-browser-dynamic@^2.3.1" args=["","angular/platform-browser-dynamic@^2.3.1"]
+64 verbose parsed url { protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: 'angular/platform-browser-dynamic@^2.3.1',
+64 verbose parsed url   path: 'angular/platform-browser-dynamic@^2.3.1',
+64 verbose parsed url   href: 'angular/platform-browser-dynamic@^2.3.1' }
+65 verbose cache add name="angular/platform-browser-dynamic" spec="^2.3.1" args=["angular/platform-browser-dynamic","^2.3.1"]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: '^2.3.1',
+66 verbose parsed url   path: '^2.3.1',
+66 verbose parsed url   href: '^2.3.1' }
+67 verbose addNamed [ 'angular/platform-browser-dynamic', '^2.3.1' ]
+68 verbose addNamed [ null, '>=2.3.1-0 <3.0.0-0' ]
+69 silly lockFile bdd6e1ac-r-platform-browser-dynamic-2-3-1 angular/platform-browser-dynamic@^2.3.1
+70 verbose lock angular/platform-browser-dynamic@^2.3.1 /home/maelle/.npm/bdd6e1ac-r-platform-browser-dynamic-2-3-1.lock
+71 verbose cache add [ '@angular/router@^3.3.1', null ]
+72 verbose cache add name=undefined spec="@angular/router@^3.3.1" args=["@angular/router@^3.3.1",null]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: '@angular/router@^3.3.1',
+73 verbose parsed url   path: '@angular/router@^3.3.1',
+73 verbose parsed url   href: '@angular/router@^3.3.1' }
+74 verbose cache add name="" spec="angular/router@^3.3.1" args=["","angular/router@^3.3.1"]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: 'angular/router@^3.3.1',
+75 verbose parsed url   path: 'angular/router@^3.3.1',
+75 verbose parsed url   href: 'angular/router@^3.3.1' }
+76 verbose cache add name="angular/router" spec="^3.3.1" args=["angular/router","^3.3.1"]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: '^3.3.1',
+77 verbose parsed url   path: '^3.3.1',
+77 verbose parsed url   href: '^3.3.1' }
+78 verbose addNamed [ 'angular/router', '^3.3.1' ]
+79 verbose addNamed [ null, '>=3.3.1-0 <4.0.0-0' ]
+80 silly lockFile 6ffe57b5-angular-router-3-3-1 angular/router@^3.3.1
+81 verbose lock angular/router@^3.3.1 /home/maelle/.npm/6ffe57b5-angular-router-3-3-1.lock
+82 verbose already installed skipping angularfire2@^2.0.0-beta.6 /home/maelle/Bureau/Presentation/projet/FCJMP
+83 verbose already installed skipping core-js@^2.4.1 /home/maelle/Bureau/Presentation/projet/FCJMP
+84 verbose already installed skipping rxjs@^5.0.1 /home/maelle/Bureau/Presentation/projet/FCJMP
+85 verbose already installed skipping ts-helpers@^1.1.1 /home/maelle/Bureau/Presentation/projet/FCJMP
+86 verbose already installed skipping zone.js@^0.7.2 /home/maelle/Bureau/Presentation/projet/FCJMP
+87 verbose cache add [ '@angular/compiler-cli@^2.3.1', null ]
+88 verbose cache add name=undefined spec="@angular/compiler-cli@^2.3.1" args=["@angular/compiler-cli@^2.3.1",null]
+89 verbose parsed url { protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: '@angular/compiler-cli@^2.3.1',
+89 verbose parsed url   path: '@angular/compiler-cli@^2.3.1',
+89 verbose parsed url   href: '@angular/compiler-cli@^2.3.1' }
+90 verbose cache add name="" spec="angular/compiler-cli@^2.3.1" args=["","angular/compiler-cli@^2.3.1"]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: 'angular/compiler-cli@^2.3.1',
+91 verbose parsed url   path: 'angular/compiler-cli@^2.3.1',
+91 verbose parsed url   href: 'angular/compiler-cli@^2.3.1' }
+92 verbose cache add name="angular/compiler-cli" spec="^2.3.1" args=["angular/compiler-cli","^2.3.1"]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: '^2.3.1',
+93 verbose parsed url   path: '^2.3.1',
+93 verbose parsed url   href: '^2.3.1' }
+94 verbose addNamed [ 'angular/compiler-cli', '^2.3.1' ]
+95 verbose addNamed [ null, '>=2.3.1-0 <3.0.0-0' ]
+96 silly lockFile 9ee5b06f-angular-compiler-cli-2-3-1 angular/compiler-cli@^2.3.1
+97 verbose lock angular/compiler-cli@^2.3.1 /home/maelle/.npm/9ee5b06f-angular-compiler-cli-2-3-1.lock
+98 verbose cache add [ '@types/jasmine@2.5.38', null ]
+99 verbose cache add name=undefined spec="@types/jasmine@2.5.38" args=["@types/jasmine@2.5.38",null]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: '@types/jasmine@2.5.38',
+100 verbose parsed url   path: '@types/jasmine@2.5.38',
+100 verbose parsed url   href: '@types/jasmine@2.5.38' }
+101 verbose cache add name="" spec="types/jasmine@2.5.38" args=["","types/jasmine@2.5.38"]
+102 verbose parsed url { protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: 'types/jasmine@2.5.38',
+102 verbose parsed url   path: 'types/jasmine@2.5.38',
+102 verbose parsed url   href: 'types/jasmine@2.5.38' }
+103 verbose cache add name="types/jasmine" spec="2.5.38" args=["types/jasmine","2.5.38"]
+104 verbose parsed url { protocol: null,
+104 verbose parsed url   slashes: null,
+104 verbose parsed url   auth: null,
+104 verbose parsed url   host: null,
+104 verbose parsed url   port: null,
+104 verbose parsed url   hostname: null,
+104 verbose parsed url   hash: null,
+104 verbose parsed url   search: null,
+104 verbose parsed url   query: null,
+104 verbose parsed url   pathname: '2.5.38',
+104 verbose parsed url   path: '2.5.38',
+104 verbose parsed url   href: '2.5.38' }
+105 verbose addNamed [ 'types/jasmine', '2.5.38' ]
+106 verbose addNamed [ '2.5.38', '2.5.38' ]
+107 silly lockFile ffa5ff0d-types-jasmine-2-5-38 types/jasmine@2.5.38
+108 verbose lock types/jasmine@2.5.38 /home/maelle/.npm/ffa5ff0d-types-jasmine-2-5-38.lock
+109 verbose cache add [ '@types/node@^6.0.42', null ]
+110 verbose cache add name=undefined spec="@types/node@^6.0.42" args=["@types/node@^6.0.42",null]
+111 verbose parsed url { protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: '@types/node@^6.0.42',
+111 verbose parsed url   path: '@types/node@^6.0.42',
+111 verbose parsed url   href: '@types/node@^6.0.42' }
+112 verbose cache add name="" spec="types/node@^6.0.42" args=["","types/node@^6.0.42"]
+113 verbose parsed url { protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: 'types/node@^6.0.42',
+113 verbose parsed url   path: 'types/node@^6.0.42',
+113 verbose parsed url   href: 'types/node@^6.0.42' }
+114 verbose cache add name="types/node" spec="^6.0.42" args=["types/node","^6.0.42"]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: '^6.0.42',
+115 verbose parsed url   path: '^6.0.42',
+115 verbose parsed url   href: '^6.0.42' }
+116 verbose addNamed [ 'types/node', '^6.0.42' ]
+117 verbose addNamed [ null, '>=6.0.42-0 <7.0.0-0' ]
+118 silly lockFile 653ae0db-types-node-6-0-42 types/node@^6.0.42
+119 verbose lock types/node@^6.0.42 /home/maelle/.npm/653ae0db-types-node-6-0-42.lock
+120 verbose already installed skipping angular-cli@1.0.0-beta.24 /home/maelle/Bureau/Presentation/projet/FCJMP
+121 verbose already installed skipping codelyzer@~2.0.0-beta.1 /home/maelle/Bureau/Presentation/projet/FCJMP
+122 verbose already installed skipping jasmine-core@2.5.2 /home/maelle/Bureau/Presentation/projet/FCJMP
+123 verbose already installed skipping jasmine-spec-reporter@2.5.0 /home/maelle/Bureau/Presentation/projet/FCJMP
+124 verbose already installed skipping karma@1.2.0 /home/maelle/Bureau/Presentation/projet/FCJMP
+125 verbose already installed skipping karma-chrome-launcher@^2.0.0 /home/maelle/Bureau/Presentation/projet/FCJMP
+126 verbose already installed skipping karma-cli@^1.0.1 /home/maelle/Bureau/Presentation/projet/FCJMP
+127 verbose already installed skipping karma-jasmine@^1.0.2 /home/maelle/Bureau/Presentation/projet/FCJMP
+128 verbose already installed skipping karma-remap-istanbul@^0.2.1 /home/maelle/Bureau/Presentation/projet/FCJMP
+129 verbose already installed skipping protractor@~4.0.13 /home/maelle/Bureau/Presentation/projet/FCJMP
+130 verbose already installed skipping ts-node@1.2.1 /home/maelle/Bureau/Presentation/projet/FCJMP
+131 verbose already installed skipping tslint@^4.0.2 /home/maelle/Bureau/Presentation/projet/FCJMP
+132 verbose already installed skipping typescript@~2.0.3 /home/maelle/Bureau/Presentation/projet/FCJMP
+133 verbose cache add [ '@angular/common@^2.3.1', null ]
+134 verbose cache add name=undefined spec="@angular/common@^2.3.1" args=["@angular/common@^2.3.1",null]
+135 verbose parsed url { protocol: null,
+135 verbose parsed url   slashes: null,
+135 verbose parsed url   auth: null,
+135 verbose parsed url   host: null,
+135 verbose parsed url   port: null,
+135 verbose parsed url   hostname: null,
+135 verbose parsed url   hash: null,
+135 verbose parsed url   search: null,
+135 verbose parsed url   query: null,
+135 verbose parsed url   pathname: '@angular/common@^2.3.1',
+135 verbose parsed url   path: '@angular/common@^2.3.1',
+135 verbose parsed url   href: '@angular/common@^2.3.1' }
+136 verbose cache add name="" spec="angular/common@^2.3.1" args=["","angular/common@^2.3.1"]
+137 verbose parsed url { protocol: null,
+137 verbose parsed url   slashes: null,
+137 verbose parsed url   auth: null,
+137 verbose parsed url   host: null,
+137 verbose parsed url   port: null,
+137 verbose parsed url   hostname: null,
+137 verbose parsed url   hash: null,
+137 verbose parsed url   search: null,
+137 verbose parsed url   query: null,
+137 verbose parsed url   pathname: 'angular/common@^2.3.1',
+137 verbose parsed url   path: 'angular/common@^2.3.1',
+137 verbose parsed url   href: 'angular/common@^2.3.1' }
+138 verbose cache add name="angular/common" spec="^2.3.1" args=["angular/common","^2.3.1"]
+139 verbose parsed url { protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: '^2.3.1',
+139 verbose parsed url   path: '^2.3.1',
+139 verbose parsed url   href: '^2.3.1' }
+140 verbose addNamed [ 'angular/common', '^2.3.1' ]
+141 verbose addNamed [ null, '>=2.3.1-0 <3.0.0-0' ]
+142 silly lockFile 615401d0-angular-common-2-3-1 angular/common@^2.3.1
+143 verbose lock angular/common@^2.3.1 /home/maelle/.npm/615401d0-angular-common-2-3-1.lock
+144 verbose cache add [ '@angular/compiler@^2.3.1', null ]
+145 verbose cache add name=undefined spec="@angular/compiler@^2.3.1" args=["@angular/compiler@^2.3.1",null]
+146 verbose parsed url { protocol: null,
+146 verbose parsed url   slashes: null,
+146 verbose parsed url   auth: null,
+146 verbose parsed url   host: null,
+146 verbose parsed url   port: null,
+146 verbose parsed url   hostname: null,
+146 verbose parsed url   hash: null,
+146 verbose parsed url   search: null,
+146 verbose parsed url   query: null,
+146 verbose parsed url   pathname: '@angular/compiler@^2.3.1',
+146 verbose parsed url   path: '@angular/compiler@^2.3.1',
+146 verbose parsed url   href: '@angular/compiler@^2.3.1' }
+147 verbose cache add name="" spec="angular/compiler@^2.3.1" args=["","angular/compiler@^2.3.1"]
+148 verbose parsed url { protocol: null,
+148 verbose parsed url   slashes: null,
+148 verbose parsed url   auth: null,
+148 verbose parsed url   host: null,
+148 verbose parsed url   port: null,
+148 verbose parsed url   hostname: null,
+148 verbose parsed url   hash: null,
+148 verbose parsed url   search: null,
+148 verbose parsed url   query: null,
+148 verbose parsed url   pathname: 'angular/compiler@^2.3.1',
+148 verbose parsed url   path: 'angular/compiler@^2.3.1',
+148 verbose parsed url   href: 'angular/compiler@^2.3.1' }
+149 verbose cache add name="angular/compiler" spec="^2.3.1" args=["angular/compiler","^2.3.1"]
+150 verbose parsed url { protocol: null,
+150 verbose parsed url   slashes: null,
+150 verbose parsed url   auth: null,
+150 verbose parsed url   host: null,
+150 verbose parsed url   port: null,
+150 verbose parsed url   hostname: null,
+150 verbose parsed url   hash: null,
+150 verbose parsed url   search: null,
+150 verbose parsed url   query: null,
+150 verbose parsed url   pathname: '^2.3.1',
+150 verbose parsed url   path: '^2.3.1',
+150 verbose parsed url   href: '^2.3.1' }
+151 verbose addNamed [ 'angular/compiler', '^2.3.1' ]
+152 verbose addNamed [ null, '>=2.3.1-0 <3.0.0-0' ]
+153 silly lockFile 51315f6a-angular-compiler-2-3-1 angular/compiler@^2.3.1
+154 verbose lock angular/compiler@^2.3.1 /home/maelle/.npm/51315f6a-angular-compiler-2-3-1.lock
+155 verbose url raw types/jasmine/2.5.38
+156 verbose url resolving [ 'https://registry.npmjs.org/', './types/jasmine/2.5.38' ]
+157 verbose url resolved https://registry.npmjs.org/types/jasmine/2.5.38
+158 info trying registry request attempt 1 at 04:39:52
+159 http GET https://registry.npmjs.org/types/jasmine/2.5.38
+160 silly addNameRange { name: 'angular/http',
+160 silly addNameRange   range: '>=2.3.1-0 <3.0.0-0',
+160 silly addNameRange   hasData: false }
+161 silly addNameRange { name: 'angular/platform-browser',
+161 silly addNameRange   range: '>=2.3.1-0 <3.0.0-0',
+161 silly addNameRange   hasData: false }
+162 silly addNameRange { name: 'angular/core',
+162 silly addNameRange   range: '>=2.3.1-0 <3.0.0-0',
+162 silly addNameRange   hasData: false }
+163 silly addNameRange { name: 'angular/forms',
+163 silly addNameRange   range: '>=2.3.1-0 <3.0.0-0',
+163 silly addNameRange   hasData: false }
+164 silly addNameRange { name: 'angular/platform-browser-dynamic',
+164 silly addNameRange   range: '>=2.3.1-0 <3.0.0-0',
+164 silly addNameRange   hasData: false }
+165 silly addNameRange { name: 'angular/router',
+165 silly addNameRange   range: '>=3.3.1-0 <4.0.0-0',
+165 silly addNameRange   hasData: false }
+166 silly addNameRange { name: 'angular/compiler-cli',
+166 silly addNameRange   range: '>=2.3.1-0 <3.0.0-0',
+166 silly addNameRange   hasData: false }
+167 silly addNameRange { name: 'types/node',
+167 silly addNameRange   range: '>=6.0.42-0 <7.0.0-0',
+167 silly addNameRange   hasData: false }
+168 silly addNameRange { name: 'angular/common',
+168 silly addNameRange   range: '>=2.3.1-0 <3.0.0-0',
+168 silly addNameRange   hasData: false }
+169 silly addNameRange { name: 'angular/compiler',
+169 silly addNameRange   range: '>=2.3.1-0 <3.0.0-0',
+169 silly addNameRange   hasData: false }
+170 verbose url raw angular/http
+171 verbose url resolving [ 'https://registry.npmjs.org/', './angular/http' ]
+172 verbose url resolved https://registry.npmjs.org/angular/http
+173 info trying registry request attempt 1 at 04:39:52
+174 http GET https://registry.npmjs.org/angular/http
+175 verbose url raw angular/platform-browser
+176 verbose url resolving [ 'https://registry.npmjs.org/', './angular/platform-browser' ]
+177 verbose url resolved https://registry.npmjs.org/angular/platform-browser
+178 info trying registry request attempt 1 at 04:39:52
+179 http GET https://registry.npmjs.org/angular/platform-browser
+180 verbose url raw angular/core
+181 verbose url resolving [ 'https://registry.npmjs.org/', './angular/core' ]
+182 verbose url resolved https://registry.npmjs.org/angular/core
+183 info trying registry request attempt 1 at 04:39:52
+184 http GET https://registry.npmjs.org/angular/core
+185 verbose url raw angular/forms
+186 verbose url resolving [ 'https://registry.npmjs.org/', './angular/forms' ]
+187 verbose url resolved https://registry.npmjs.org/angular/forms
+188 info trying registry request attempt 1 at 04:39:52
+189 http GET https://registry.npmjs.org/angular/forms
+190 verbose url raw angular/platform-browser-dynamic
+191 verbose url resolving [ 'https://registry.npmjs.org/',
+191 verbose url resolving   './angular/platform-browser-dynamic' ]
+192 verbose url resolved https://registry.npmjs.org/angular/platform-browser-dynamic
+193 info trying registry request attempt 1 at 04:39:52
+194 http GET https://registry.npmjs.org/angular/platform-browser-dynamic
+195 verbose url raw angular/router
+196 verbose url resolving [ 'https://registry.npmjs.org/', './angular/router' ]
+197 verbose url resolved https://registry.npmjs.org/angular/router
+198 info trying registry request attempt 1 at 04:39:52
+199 http GET https://registry.npmjs.org/angular/router
+200 verbose url raw angular/compiler-cli
+201 verbose url resolving [ 'https://registry.npmjs.org/', './angular/compiler-cli' ]
+202 verbose url resolved https://registry.npmjs.org/angular/compiler-cli
+203 info trying registry request attempt 1 at 04:39:52
+204 http GET https://registry.npmjs.org/angular/compiler-cli
+205 verbose url raw types/node
+206 verbose url resolving [ 'https://registry.npmjs.org/', './types/node' ]
+207 verbose url resolved https://registry.npmjs.org/types/node
+208 info trying registry request attempt 1 at 04:39:52
+209 http GET https://registry.npmjs.org/types/node
+210 verbose url raw angular/common
+211 verbose url resolving [ 'https://registry.npmjs.org/', './angular/common' ]
+212 verbose url resolved https://registry.npmjs.org/angular/common
+213 info trying registry request attempt 1 at 04:39:52
+214 http GET https://registry.npmjs.org/angular/common
+215 verbose url raw angular/compiler
+216 verbose url resolving [ 'https://registry.npmjs.org/', './angular/compiler' ]
+217 verbose url resolved https://registry.npmjs.org/angular/compiler
+218 info trying registry request attempt 1 at 04:39:52
+219 http GET https://registry.npmjs.org/angular/compiler
+220 http 404 https://registry.npmjs.org/types/jasmine/2.5.38
+221 silly registry.get cb [ 404,
+221 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+221 silly registry.get     'content-type': 'application/json',
+221 silly registry.get     'cache-control': 'max-age=0',
+221 silly registry.get     'content-length': '40',
+221 silly registry.get     'accept-ranges': 'bytes',
+221 silly registry.get     date: 'Thu, 12 Jan 2017 03:39:52 GMT',
+221 silly registry.get     via: '1.1 varnish',
+221 silly registry.get     age: '0',
+221 silly registry.get     connection: 'keep-alive',
+221 silly registry.get     'x-served-by': 'cache-ams4123-AMS',
+221 silly registry.get     'x-cache': 'MISS',
+221 silly registry.get     'x-cache-hits': '0',
+221 silly registry.get     'x-timer': 'S1484192392.192204,VS0,VE290' } ]
+222 silly lockFile ffa5ff0d-types-jasmine-2-5-38 types/jasmine@2.5.38
+223 silly lockFile ffa5ff0d-types-jasmine-2-5-38 types/jasmine@2.5.38
+224 error 404 'types' is not in the npm registry.
+224 error 404 You should bug the author to publish it
+224 error 404
+224 error 404 Note that you can also install from a
+224 error 404 tarball, folder, or http url, or git url.
+225 error System Linux 3.13.0-37-generic
+226 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+227 error cwd /home/maelle/Bureau/Presentation/projet/FCJMP
+228 error node -v v0.10.25
+229 error npm -v 1.3.10
+230 error code E404
+231 verbose exit [ 1, true ]
