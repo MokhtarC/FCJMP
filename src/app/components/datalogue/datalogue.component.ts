@@ -355,12 +355,13 @@ export class DatalogueComponent implements OnInit
 		this.materielActif.photo = photo;
 		this.materielActif.remarque = remarque;
 
-		var l = this.materielUtile.length;
-		this.materielUtile.push(this.materielActif);
-		this.materielActif = this.materielUtile[l];
 
 
 		this._firebaseService.addMaterielUtile(this.materielActif);
+
+		
+		var l = this.materielUtile.length;
+		this.materielActif = this.materielUtile[l];
 
 		this.changeMatUtState('show');
 	}

@@ -1,4 +1,4 @@
-<!-- DATALOGUE
+DATALOGUE
 <div class="container">
 	<div class="row">
 		<button (click)="reset('default')" class="btn btn-default">Défaut</button>
@@ -6,7 +6,7 @@
 		<button (click)="changeState('listoj')" class="btn btn-secondary">List OJ</button>
 	</div>
 </div>
-<br> -->
+<br>
 
 <!-- Liste OJ -->
 <div *ngIf="appState =='listoj'" class="panel panel-default">	
@@ -128,10 +128,9 @@
 
 <!-- Datalogue -->
 <div *ngIf="appState=='datalogue'" class="container well">
-	<!-- <header *ngIf="ojActive" class="oj-header">
+	<header *ngIf="ojActive" class="oj-header">
 		<div class="row">
 			<div class="col-md-3 ">
-				<img class="thumbnail logo" src="{{institution.photo}}"/>
 			</div>
 			<div class="col-md-3 ">
 				<h3>{{ojActive.nom}}</h3>
@@ -139,9 +138,9 @@
 				<p>{{institution.cat}}</p>
 			</div>
 		</div> 
-	</header>-->
+	</header>
 	<div class="datalogue-content">
-		<!-- <div class="">
+		<div class="">
 			<div class="row">
 				<div class="col-md-10">
 					<button (click)="changeDataState('institution')" class="btn btn-secondary">Institution</button>
@@ -155,7 +154,7 @@
 					<button (click)="changeDataState('ag')" class="btn btn-secondary">AG</button>
 				</div>
 			</div>
-		</div> -->
+		</div> 
 
 		<!-- DATALOGUE-CONTENT -->
 		<div class="">
